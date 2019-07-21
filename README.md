@@ -1,5 +1,5 @@
 # ARPLWebsite
 
-Website for Arihant Reclaation Pvt Ltd
+Website for Arihant Reclamation Pvt Ltd
 
 Link: arihantreclamationpvtltd.com
