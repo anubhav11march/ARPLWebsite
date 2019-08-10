@@ -1,11 +1,15 @@
 #headings
 {
-    border:1px grey solid;
-    background-color:rgb(59, 59, 59);
+    border:1px rgb(66, 66, 66) solid;
+    background-color:rgb(66, 66, 66);
     color:white;
-    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+    font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
     font-weight:50;
-    
+}
+#headings td
+{
+    border:0;
 }
 .adv
 {
@@ -17,4 +21,11 @@ table
 {
     font-family: Arial, Helvetica, sans-serif;
     text-align:center;
+}
+
+#products
+{
+    width:1300px;
+    margin-left:25px;
+    margin-bottom:55px;
 }
