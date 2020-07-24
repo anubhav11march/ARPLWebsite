@@ -160,6 +160,20 @@
       font-weight: 100;
       line-height: 55px;
     }
+
+
+    .row .col img {
+      width: 100px;
+      height: 100px;
+    }
+
+    .row .col {
+      padding: 10px;
+    }
+
+    .accContainer {
+      padding: 10px 0;
+    }
   </style>
 </head>
 
@@ -196,12 +210,35 @@
     <tr>
       <td align=left><a href="index.html"><img src=logo.png height="160" width="400"></a>
       <td align=right><img src="line.jpg" height=130>
-      <td align=left>
-        <font color="#2E2E2E" face="Century gothic" size=4>MBT Accelerator <br> MBTS Accelerator <br> CBS Accelerator<br><a href="./products.html" style="text-decoration: none; color: #2E2E2E; font-weight: bold;">View All Products >> </a><br>
-        </font>
+      <td class="accContainer">
+        <div class="row" style="margin-top: 25%">
+          <div class="col">
+            <img src="acc1.jpg" alt="">
+          </div>
+          <div class="col">
+            <img src="acc2.png" alt="">
+          </div>
+        </div>
+      </td>
+      <td class="accContainer">
+        <div class="row" style="margin-top: 25%">
+          <div class="col">
+            <img src="acc3.jpg" alt="">
+          </div>
+          <div class="col">
+            <img src="acc4.png" alt="">
+          </div>
+        </div>
       </td>
       </td>
       </td>
+    </tr>
+  </table>
+  <table width=100% align=center>
+    <tr>
+      <a href="products.html" style="font-size: 1.2rem; font-family: " Century gothic";">
+        <marquee>Rubber Accelerators MBT, MBTS, CBS, TMTD, TDQ, Polyurethane (PU) Binder, Chemlok, SBR 1502, PBR, Reclaim Rubber</marquee>
+      </a>
     </tr>
   </table>
   <table align=center height=300px width="100%" cellspacing=30 cellpadding="30" background=cubg.jpg>
@@ -732,7 +769,8 @@
             lastactionobj = field;
 
             if (id == selectedfield) {
-              /* alert('do nothing'); */ }
+              /* alert('do nothing'); */
+            }
 
             // now the field rules
 
